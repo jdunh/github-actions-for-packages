@@ -1,3 +1,2 @@
 FROM nginx:1.17
-COPY ./user/share/nginx/html
-# Testing
+COPY . /usr/share/nginx/html
